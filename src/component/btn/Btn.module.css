@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+.btn,
+a.btn,
+button.btn {
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Kosugi Maru';
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.7rem 0.8rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 2rem;
+}
+
+.btn_wrap {
+  display: inline-block;
+
+  padding: 0.3rem 0.3rem 0.8rem 0.3rem;
+  margin: 0.2rem;
+
+  border-radius: 1rem;
+  background: #f2f5f6;
+  background: -webkit-linear-gradient(
+    to top,
+    #787c7d 25%,
+    #96a1a5 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#b6b7b8),
+    color-stop(37%, #7c8082),
+    to(#96a1a5)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #96a1a5 100%
+  );
+  background: linear-gradient(135deg, #f2f5f6 0%, #dce3e6 60%, #61696c 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+.btn_wrap:hover {
+  background: linear-gradient(135deg, #f4edf5 0%, #e5dbe7 60%, #837486 100%);
+}
+
+.btn_wrap_disabled {
+  display: inline-block;
+
+  padding: 0.3rem 0.3rem 0.8rem 0.3rem;
+  margin: 0.2rem;
+
+  border-radius: 1rem;
+  background: #5f6163;
+  background: -webkit-linear-gradient(
+    to top,
+    #3a3c3d 25%,
+    #4d5355 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#797979),
+    color-stop(37%, #535557),
+    to(#565c5e)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #b3b5b6 0%,
+    #94989a 37%,
+    #4f5557 100%
+  );
+  background: linear-gradient(135deg, #c1c4c5 0%, #a0a6a8 60%, #3c4142 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+.btn_wrap_purple_disabled {
+  display: inline-block;
+
+  padding: 0.3rem 0.3rem 0.8rem 0.3rem;
+  margin: 0.2rem;
+
+  border-radius: 1rem;
+  background: #f1d1fc;
+  background: -webkit-linear-gradient(
+    to top,
+    #c996cf 25%,
+    #682388 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f3c1fb),
+    color-stop(37%, #946ea5),
+    to(#7b1f9a)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f3c1fb 0%,
+    #946ea5 37%,
+    #6e2d96 100%
+  );
+  background: linear-gradient(135deg, #f3c1fb 0%, #946ea5 60%, #6e2d96 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#96a1a5', GradientType=0);
+}
+
+a.btn_normal {
+border-radius: 1rem;
+  background: #e3eaed;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e3eaed),
+    to(#f2f5f6)
+  );
+  background: -webkit-linear-gradient(top, #e3eaed 0%, #f2f5f6 100%);
+  background: linear-gradient(to bottom, #e3eaed 0%, #f2f5f6 100%);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3eaed', endColorstr='#f2f5f6', GradientType=0);
+}
+
+a.btn_normal:hover {
+  background: #f4e3f7;
+}
+
+a.btn_normal:active {
+  -webkit-transform: translateY(3px);
+  transform: translateY(5px);
+  border-bottom: none;
+}
+
+a.btn_noraml_disabled {
+  border-radius: 1rem;
+    background: #abb0b1;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#abb0b1),
+      to(#a9abac)
+    );
+    background: -webkit-linear-gradient(top, #abb0b1 0%, #a9abac 100%);
+    background: linear-gradient(to bottom, #abb0b1 0%, #a9abac 100%);
+  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#abb0b1', endColorstr='#abb0b1', GradientType=0);
+  }
+
+  a.btn_purole_disabled {
+    border-radius: 1rem;
+      background: #cd8bf7;
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#ddb1fa),
+        to(#9e65c7)
+      );
+      background: -webkit-linear-gradient(top, #ddb1fa 0%, #9e65c7 100%);
+      background: linear-gradient(to bottom, #ddb1fa 0%, #9e65c7 100%);
+    
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#abb0b1', endColorstr='#abb0b1', GradientType=0);
+    }

@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+.title_grand{
+    width:100%;
+    height: 10%;
+}
+
+.title{
+    font-family: Courgette;
+    font-size:5rem;
+    align-items: center;
+    background: linear-gradient(90deg, #f6f7f8, #bdacf6 60%, #511dfd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
