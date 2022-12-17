@@ -30,6 +30,11 @@ export const Board: React.FC<Props> = ({ btnCount, random, setStatus }) => {
     const list: JSX.Element[] = [];
 
     for (let i = 1; i <= btnCount; i++) {
+        console.log("----------------------------");
+        console.log("random:" + envContext.random);
+        console.log("     i:" + i);
+        console.log("result:" + envContext.random.includes(i));
+        console.log("----------------------------");
         list.push(<Btn key={i} isPurple={envContext.random.includes(i)} addCount={addCount} />);
     }
 

@@ -9,6 +9,10 @@ export class Utility {
       // 乱数（最大値：ボタン件数）を取得
       const random = Math.floor(Math.random() * btnCount);
 
+      // 0は除く
+      if(random === 0){
+        continue;
+      }
       // 重複がなければリストに追加
       if(!list.includes(random)){
         list[i] = random;
