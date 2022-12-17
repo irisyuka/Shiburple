@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shiburple/static/css/main.5bfeb4d5.css",
+    "main.js": "/shiburple/static/js/main.54945fa8.js",
+    "static/js/787.85c897cf.chunk.js": "/shiburple/static/js/787.85c897cf.chunk.js",
+    "index.html": "/shiburple/index.html",
+    "main.5bfeb4d5.css.map": "/shiburple/static/css/main.5bfeb4d5.css.map",
+    "main.54945fa8.js.map": "/shiburple/static/js/main.54945fa8.js.map",
+    "787.85c897cf.chunk.js.map": "/shiburple/static/js/787.85c897cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bfeb4d5.css",
+    "static/js/main.54945fa8.js"
+  ]
+}
