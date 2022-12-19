@@ -1,0 +1,12 @@
+.Discription {
+    text-align: center;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    color: #263149;
+    margin:0;
+    padding:0;
+  }
+  

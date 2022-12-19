@@ -17,15 +17,6 @@
     align-content: stretch;
 } */
 
-
-.message{
-    clear:both; 
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    color: #000000;
-}
-
 .btnlist div{
     float: left;
 }
