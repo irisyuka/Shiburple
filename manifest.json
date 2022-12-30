@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Shiburple",
+  "name": "Create React Shiburple",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "16x16 32x32 48x48",
+      "sizes": "16x16 32x32 48x48 64x64",
       "type": "image/x-icon"
     },
     {
